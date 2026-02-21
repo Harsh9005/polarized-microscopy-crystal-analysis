@@ -1,0 +1,4 @@
+filename,sort_key,label,image_width_px,image_height_px,threshold_method,threshold_value,bg_median,bg_mad,dark_fraction,total_valid_pixels,crystal_pixels,crystal_area_percent,n_crystal_objects,mean_object_area_px,median_object_area_px,max_object_area_px
+sample_1.tif,1.0000,Sample 1,2048,2048,"Adaptive (bg_median=19 + 2×MAD=2, floor=10)",23.0000,19.0000,2.0000,0.9784,4140512,406381,9.8148,1072,379.0868,5.0000,317071.0000
+sample_2.tif,2.0000,Sample 2,2048,2048,"Adaptive (bg_median=0 + 2×MAD=0, floor=10)",10.0000,0.0000,0.0000,0.2351,4140512,3217895,77.7173,5,643579.0000,10.0000,3217864.0000
+sample_3.tif,3.0000,Sample 3,2048,2048,"Adaptive (bg_median=17 + 2×MAD=2, floor=10)",21.0000,17.0000,2.0000,0.9775,4140512,319870,7.7254,1815,176.2369,8.0000,156972.0000

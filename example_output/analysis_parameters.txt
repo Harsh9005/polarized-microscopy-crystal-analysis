@@ -1,0 +1,35 @@
+Crystal Area Quantification — Analysis Parameters
+============================================================
+
+Input directory:           example_data/
+Output directory:          example_output
+
+Segmentation settings:
+  Signal channel:          green
+  Threshold method:        Adaptive (median + k×MAD)
+    k (sensitivity):       2
+    Minimum threshold:     10/255
+  Scale bar margin (frac): 0.08
+  Min object size (px):    5
+  Morph. opening radius:   1
+
+Per-image results:
+------------------------------------------------------------
+  sample_1.tif
+    BG median:  19,  MAD: 2
+    Threshold:  23.0/255  (Adaptive (bg_median=19 + 2×MAD=2, floor=10))
+    Crystal %:  9.8148
+    N objects:  1072
+
+  sample_2.tif
+    BG median:  0,  MAD: 0
+    Threshold:  10.0/255  (Adaptive (bg_median=0 + 2×MAD=0, floor=10))
+    Crystal %:  77.7173
+    N objects:  5
+
+  sample_3.tif
+    BG median:  17,  MAD: 2
+    Threshold:  21.0/255  (Adaptive (bg_median=17 + 2×MAD=2, floor=10))
+    Crystal %:  7.7254
+    N objects:  1815
+
